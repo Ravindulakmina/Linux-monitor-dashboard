@@ -28,21 +28,24 @@ Built for Linux systems, and perfect for both local monitoring or deploying on a
 
 ```
 
-linux-monitor-dashboard/
-├── backend/
-│   ├── app.py              # Flask API
-│   └── requirements.txt    # Python dependencies
-│
-├── frontend/
-│   ├── index.html          # Dashboard UI
-│   ├── script.js           # Chart rendering + API fetching
-│   └── style.css           # Optional extra styles (or Tailwind via CDN)
-│
-├── Dockerfile              # Multi-stage Docker build
-├── docker-compose.yml      # Optional for multi-container setup
-└── README.md
 
-````
+
+```
+└── 📁linux-monitor-dashboard
+    └── 📁backend
+        ├── app.py                # Flask API
+        ├── requirements.txt      # Python dependencies
+    └── 📁frontend
+        ├── index.html            # Dashboard UI
+        ├── script.js             # Chart rendering + API fetching
+        ├── style.css             # Optional extra styles (or Tailwind via CDN)
+    ├── .DS_Store
+    ├── docker-compose.yml        # Optional for multi-container setup
+    └── Dockerfile                # Multi-stage Docker build
+    └── README.md
+```
+
+
 
 ---
 
