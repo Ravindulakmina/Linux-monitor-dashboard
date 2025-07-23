@@ -1,3 +1,7 @@
+# author: Ravindu Lakmina
+# date: 2025-07-24
+# description: Flask application for Linux system monitoring API
+
 from flask import Flask, jsonify
 import psutil
 import platform

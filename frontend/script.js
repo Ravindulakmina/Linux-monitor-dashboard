@@ -1,3 +1,8 @@
+//  author: Ravindu Lakmina
+//  date: 2025-07-24
+//  description: Flask application for Linux system monitoring API
+
+
 async function fetchStats() {
   const res = await fetch('http://localhost:5001/api/stats');
   const data = await res.json();
