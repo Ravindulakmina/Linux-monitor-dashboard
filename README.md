@@ -3,7 +3,16 @@
 
 ### ✅ `README.md`
 
-```md
+# Linux Monitor Dashboard
+
+A simple dashboard to monitor Linux system resources using Flask.
+
+## 🔍 Screenshot
+
+![Linux Monitor Dashboard](https://res.cloudinary.com/dzdxnfmal/image/upload/v1753330052/Screenshot_2025-07-24_at_09.36.59_a5ovkk.png)
+
+
+
 # 🖥️ Linux System Monitor Dashboard
 
 A beautiful, responsive system dashboard to monitor your Linux server's performance in real-time — built with **HTML**, **Tailwind CSS**, **Chart.js**, and a **Flask backend**. It supports standalone mode or can be deployed easily using Docker.
@@ -25,12 +34,8 @@ Built for Linux systems, and perfect for both local monitoring or deploying on a
 ---
 
 ## 📂 Project Structure
-
 ```
 
-
-
-```
 └── 📁linux-monitor-dashboard
     └── 📁backend
         ├── app.py                # Flask API
